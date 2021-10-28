@@ -1,7 +1,7 @@
 /**/
    
 body{
-  background: skyblue;
+  background: palegreen;
 }   
 
 button{
@@ -11,10 +11,23 @@ button{
 }
 
 #btnA{
-  background-color: yellow;
-  color: green;
-  font-weight: bold;
+  background-color: white;
+  color: blue;
+  font-weight: lighter;
 }
+
+#btnB{
+  background-color: white;
+  color: red;
+  font-weight: inherit;
+}
+
+#btnC{
+  background-color: white;
+  color: green;
+  font-weight: unset;
+}
+
 
 #time{
   box-shadow: 5px 5px 5px;
@@ -73,7 +86,7 @@ button{
     }
 
     #btnC {
-        font-size: 10px;
+        font-size: 20px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
     }
     

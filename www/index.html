@@ -169,10 +169,10 @@
         var img = new Image();
         img.src = "ksuisbg.gif";
         img.onload= function(){
-          ctx.drawImage(img, 0, 0, 300, 300);
+          ctx.drawImage(img, 0, 0, 300, 200);
         };
         var audio = new Audio();
-        audio.src = "pin.wav";
+        audio.src = "pon_girl.wav";
         audio.play();
     }
     
@@ -192,7 +192,7 @@
 
     // ButtonCがクリックされた時の処理
     function btnCClick(e){
-        //alarm();
+        alarm();
         avtive = false;
         period = 60* parseInt( $("#minute").val()) + parseInt($("#second").val());
         $("#time").html("経過時間： 0");
@@ -227,7 +227,7 @@
     <div id="time">Time</div>
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
-    <button id="btnC">set</button>  
+    <button id="btnC">Set</button>  
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
